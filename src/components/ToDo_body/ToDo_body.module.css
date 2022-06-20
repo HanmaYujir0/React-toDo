@@ -28,32 +28,30 @@ input {
   width: 25%;
 }
 
-
-
 /* 
 css Content */
 
 .content_container {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   height: 50px;
-  background-color: #FFF6D6;
-  border-bottom: 1px solid #E5E5E5 ;
+  background-color: #fff6d6;
+  border-bottom: 1px solid #e5e5e5;
 }
 .content_container1 {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   height: 50px;
-  border-bottom: 1px solid #E5E5E5 ;
+  border-bottom: 1px solid #e5e5e5;
 }
 .content_buttonCompleate {
   background-color: transparent;
   text-align: center;
   border: none;
-  color: #FFD231;
+  color: #ffd231;
   font-size: 22px;
 }
-.content_buttonCompleate:hover{
+.content_buttonCompleate:hover {
   box-shadow: 2px 3px 5px 1px gray;
   border-radius: 4px;
 }
@@ -63,11 +61,11 @@ css Content */
   border: 0px;
   font-size: 22px;
 }
-.content_buttonCompleate1:hover{
+.content_buttonCompleate1:hover {
   box-shadow: 2px 3px 5px 1px gray;
   border-radius: 4px;
 }
-.content_buttonRemove{
+.content_buttonRemove {
   background-color: transparent;
   font-size: 15px;
   padding: 10px;
