@@ -1,0 +1,87 @@
+.ToDo_body {
+  width: 80%;
+  margin: 0 auto;
+}
+.ToDo_InputAndButton {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  width: 70%;
+  border-radius: 3px;
+}
+.buttonAdd {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgb(168, 56, 185);
+  border-radius: 3px;
+  background-color: rgb(168, 56, 185);
+  color: white;
+  width: 25%;
+}
+
+
+
+/* 
+css Content */
+
+.content_container {
+  display:flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #FFF6D6;
+  border-bottom: 1px solid #E5E5E5 ;
+}
+.content_container1 {
+  display:flex;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid #E5E5E5 ;
+}
+.content_buttonCompleate {
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  color: #FFD231;
+  font-size: 22px;
+}
+.content_buttonCompleate:hover{
+  box-shadow: 2px 3px 5px 1px gray;
+  border-radius: 4px;
+}
+.content_buttonCompleate1 {
+  background-color: transparent;
+  text-align: center;
+  border: 0px;
+  font-size: 22px;
+}
+.content_buttonCompleate1:hover{
+  box-shadow: 2px 3px 5px 1px gray;
+  border-radius: 4px;
+}
+.content_buttonRemove{
+  background-color: transparent;
+  font-size: 15px;
+  padding: 10px;
+  border: 0px;
+}
+.content_buttonRemove:hover {
+  box-shadow: 2px 3px 5px 1px gray;
+  border-radius: 4px;
+}
+
+.content_text {
+  font-size: 20px;
+  width: 60%;
+  flex: 1;
+  align-self: center;
+  margin-left: 20px;
+}
